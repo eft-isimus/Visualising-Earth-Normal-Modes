@@ -1,0 +1,6 @@
+Mayavi can be installed on Windows using the standard installation procedure listed on the website, here: https://docs.enthought.com/mayavi/mayavi/installation.html
+
+You may also need to install the jupyter notebook extensions, which require downgrading jupyter to an older version. 
+The 'visualising_normal_modes' jupyter notebook should then run without issues. 
+
+However, I was not able to run mayavi on Linux in Ubuntu 24.04. The jupyter notebook crashes everytime mlab is imported from the mayavi package, for which I could not find any solutions. I have not tried installing Mayavi on older versions of Ubuntu, which may work. 
